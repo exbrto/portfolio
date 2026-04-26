@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-brand {
+    color: #4d4aa0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0c0b2f;
+    color: #C8C2E0;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    padding-top: 100px;
+    padding-bottom: 170px;
+}
+
+h1 {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.left-column {
+    width: 48%;
+    display: flex;
+    align-items: center;
+}
+
+.right-column {
+    width: 52%;
+    text-align: left;
+    padding-right: 140px;
+}
+
+a {
+    color: #C8C2E0;
+}
+
+a:visited {
+    color: #9c8be1;
+}
+
+a:hover {
+    color: #f7a2a2;
+}
+
+a:active {
+    color: #C8C2E0;
+}
+
+footer {
+    background-color: #0c0b2f;
+    color: #C8C2E0;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 140px;
+}
+
+.contact-links {
+    display: flex;
+    gap: 20px;
+    font-size: 2rem;
+    padding-left: 155px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    padding-left: 150px;
+}
+
+.hero-tagline {
+    font-size: 20px;
+    color: #948bb9;
+}
+
+h2 {
+    font-size: 14px;
+    color: #4d4aa0;
+    padding-bottom: 2px;
+}
+
+#about {
+    padding-bottom: 50px;
+}
+
+.project-card {
+    padding-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+}
