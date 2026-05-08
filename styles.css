@@ -87,8 +87,8 @@ footer {
 }
 
 h2 {
-    font-size: 14px;
-    color: #4d4aa0;
+    font-size: 15px;
+    color: #4d4aa0; 
     padding-bottom: 2px;
 }
 
@@ -102,4 +102,8 @@ h2 {
 
 p {
     font-size: 18px;
+}
+
+#signature {
+    opacity: 0.8;
 }
